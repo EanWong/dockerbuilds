@@ -21,3 +21,6 @@ EXPOSE 27017
 
 # Set usr/bin/mongod as the dockerized entry-point application
 ENTRYPOINT ["/usr/bin/mongod"]
+
+# Typical ways to interact with a dockerized DB
+# $ docker exec -i -t 665b4a1e17b6 /bin/bash #by ID

@@ -6,3 +6,5 @@
 # webserver-node ignores
 webserver-node/node_modules
 
+# test ignores
+test/node_modules
