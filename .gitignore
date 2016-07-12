@@ -1,0 +1,8 @@
+# Ignore files for the git repository of our docker builds
+# Dependency directories
+
+# database-mongo ignore
+
+# webserver-node ignores
+webserver-node/node_modules
+
