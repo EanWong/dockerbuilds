@@ -2,6 +2,7 @@
 # Dependency directories
 
 # database-mongo ignore
+database-mongo/data
 
 # webserver-node ignores
 webserver-node/node_modules
