@@ -13,6 +13,7 @@ var db = monk(process.env.DB_PORT_27017_TCP_ADDR + ':' + process.env.DB_PORT_270
 
 var routes = require('./routes/index');
 var users = require('./routes/users');
+var worksheet = require('./routes/worksheet');
 
 var app = express();
 
@@ -36,6 +37,7 @@ app.use(function(req,res,next){
 
 app.use('/', routes);
 app.use('/users', users);
+app.use('/worksheet', worksheet);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
